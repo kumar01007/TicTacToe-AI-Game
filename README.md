@@ -4,6 +4,7 @@ A console-based Tic Tac Toe game where you play as **X**, and the AI opponent pl
 
 ## 🎮 How to Play
 
+- When prompted, choose if you want to play first (`y`) or let the AI start (`n`)
 - Choose a number from 1 to 9 to place your move on the board.
 - The AI automatically plays its best move using Minimax.
 - First to align 3 of their symbols (X or O) wins!
