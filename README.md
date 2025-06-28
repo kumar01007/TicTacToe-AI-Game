@@ -1,16 +1,16 @@
-# Tic Tac Toe (C++)
+# Tic Tac Toe (C++ Minimax AI)
 
-This is a simple console-based Tic Tac Toe game implemented in C++.
+A console-based Tic Tac Toe game where you play as **X**, and the AI opponent plays as **O** using the Minimax algorithm. It runs in the terminal and ensures the AI never loses.
 
-## Features
+## 🎮 How to Play
 
-- Human vs Computer
-- Minimax algorithm for AI moves
-- Console UI
+- Choose a number from 1 to 9 to place your move on the board.
+- The AI automatically plays its best move using Minimax.
+- First to align 3 of their symbols (X or O) wins!
 
-## How to Compile
+## 🛠 How to Compile & Run
 
-Using g++:
 ```bash
-g++ tictactoe.cpp -o tictactoe
-./tictactoe
+g++ tic-tac-toe.cpp -o game
+./game
+
